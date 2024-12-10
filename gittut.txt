@@ -1,0 +1,96 @@
+git guide 
+---------
+in first time we have to set the Git URL link with terinal 
+git init 
+ and then 
+git config --global user.email "mannikand@gmail.com"
+
+ git config --global user.name "Manicodeblock"
+
+now its connected with the GitHub 
+
+
+before ensure git has installed and check it git --version 
+
+command 
+git init 
+git add .
+git commit "nameof commit"
+git remote add origin <your-repo-url>
+example 
+git remote add origin https://github.com/username/repo-name.git
+
+git push origin master 
+or 
+
+git push -u origin main
+
+based on the name of the branch 
+
+
+CREATE BRANCH 
+------------
+IF WE WANT  to create branch just use the foloeing command 
+git branch branch name 
+example
+git branch A
+
+SWITCHING BRANCH 
+
+git checkout branchname 
+
+and then use the git status for current statis 
+
+
+CLONE REMOTE REPO 
+-----------------
+git clone <repository-url>
+
+
+
+ADD A SINGLE FILE 
+git add <file-name>
+
+
+Pull the latest changes from the remote repository to your local repository:
+
+git pull origin main 
+
+
+Fetch updates from the remote repository without merging them:
+
+git fetch 
+
+
+
+Merge a branch into your current branch:
+
+git merge <branch-name>
+
+
+Rebase the current branch onto another branch (rewrites commit history):
+git rebase <branch-name>
+
+
+For logs 
+git log
+
+
+List remote repositories 
+git remote -v
+
+
+Remove repo 
+git remote remove <remote-name>
+
+
+
+remove untarcked files
+ git clean -f
+
+
+
+
+
+
+ 
