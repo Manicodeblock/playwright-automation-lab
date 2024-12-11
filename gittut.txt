@@ -88,9 +88,3 @@ git remote remove <remote-name>
 remove untarcked files
  git clean -f
 
-
-
-
-
-
- 
