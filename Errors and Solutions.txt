@@ -1,0 +1,11 @@
+input :
+ console.log("the reversed string is, ${reversed}")  
+
+o/p:
+the reversed string is, ${reversed}
+
+solution :
+code has an issue with the string interpolation syntax. In JavaScript, for string interpolation, 
+you should use backticks (`) instead of double or single quotes (" or ').
+console.log(`The reversed string is: ${reversed}`);
+

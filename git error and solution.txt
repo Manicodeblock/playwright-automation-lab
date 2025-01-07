@@ -1,0 +1,9 @@
+git add . 
+git add -A 
+is not working shows warning 
+warning: in the working copy of 'node_modules/playwright-core/lib/utilsBundleImpl/xdg-open', LF will be replaced by CRLF the next time Git touches it
+
+SOLUTION 
+git config --global core.autocrlf false
+
+
